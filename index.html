@@ -1,0 +1,117 @@
+<title>Criptograf&iacute;a cu&aacute;ntica</title>
+<link rel='stylesheet' type='text/css' href='estilos.css'/>
+
+<body>
+<div class='contenedor'>
+
+<header class='cabecera'><center><h1>Criptograf&iacute;a cu&aacute;ntica</h1></center></header>
+
+<main class='contenido'>
+<center><h2>Abstract</h2></center>
+<p>El vertiginoso avance de la computaci&oacute;n en las &uacute;ltimas d&eacute;cadas est&aacute; ligado al uso de transistores cada vez m&aacute;s peque&ntilde;os y potentes. Pero pronto ser&aacute; imposible acumular m&aacute;s transistores en el mismo espacio,
+ya que a escala nanom&eacute;trica las interacciones cu&aacute;nticas son dif&iacute;ciles de controlar.
+La computaci&oacute;n cu&aacute;ntica empez&oacute; a desarrollarse en la d&eacute;cada de los ochenta a ra&iacute;z de las propuestas de Paul Benioff, David Deutsch y Richard Feynman.
+En 1982, sugirieron independientemente que, dado el elevado coste computacional del c&aacute;lculo de la evoluci&oacute;n de sistemas cu&aacute;nticos, la evoluci&oacute;n de
+estos sistemas se podr&iacute;a considerar como una herramienta de c&aacute;lculo m&aacute;s que como un objeto a calcular. Poco despu&eacute;s, en 1985, y tambi&eacute;n de forma
+independiente Deutsch propone la b&uacute;squeda de un ordenador que sea capaz de simular eficientemente un sistema f&iacute;sico arbitrario. La conjunci&oacute;n
+de todas estas ideas ha conducido a la concepci&oacute;n actual de ordenador cu&aacute;ntico.</p>
+<center><h2>Palabras clave</h2></center>
+<p>Qbit, criptograf&iacute;a, f&iacute;sica cu&aacute;ntica, seguridad en redes, computaci&oacute;n cu&aacute;ntica, protocolos criptogr&aacute;ficos, superposici&oacute;n de estados, distribuci&oacute;n de claves cu&aacute;nticas.</p
+<center><img src='https://cambiodigital-ol.com/wp-content/uploads/2018/09/QuantumComp-696x457.jpg' width='600' height='400'></center>
+<center><h2>Introducci&oacute;n</h2></center>
+<p>La criptograf&iacute;a cu&aacute;ntica trata de la distribuci&oacute;n que representa un qubit acerca de un sistema cu&aacute;ntico de n qubits, donde
+busca construir la distribuci&oacute;n de instantes exactos, nombra el algoritmo de Robbins Monro como una soluci&oacute;n de la entrop&iacute;a
+intratable, el cual tambi&eacute;n se considera una formulaci&oacute;n bayesiana para cuantificar la incertidumbre posterior, con lo dicho
+anteriormente lo que hace el autor es proponer distintos enfoques con el fin de solucionar la estimaci&oacute;n de incertidumbre para la salida de un simulador
+cu&aacute;ntico, tambi&eacute;n se&ntilde;ala la importancia de tener una comunicaci&oacute;n segura, aclara que la criptograf&iacute;a cu&aacute;ntica puede ser la principal defensa de la
+cu&aacute;ntica, habla sobre los protocolos criptogr&aacute;ficos donde la seguridad se basa en supuestos no probados hasta la actualidad por la dureza
+computacional acerca de algoritmos, se hace hincapi&eacute; acerca de la comprensi&oacute;n de la criptograf&iacute;a cu&aacute;ntica para hacer uso del proceso de
+informaci&oacute;n cu&aacute;ntica.</p>
+<p>Se busca dar un enfoque acerca de las aplicaciones que se pueden realizar haciendo uso de la criptograf&iacute;a cu&aacute;ntica, informando acerca de la
+importancia de la mec&aacute;nica cu&aacute;ntica donde se explotan los principios de la f&iacute;sica cu&aacute;ntica, describiendo y discutiendo los procedimientos de seguridad.
+Acerca del mundo de la tecnolog&iacute;a se opina que est&aacute; cada vez m&aacute;s impregnada en la sociedad actual, afirmando que en consecuencia
+a ello la teor&iacute;a de la informaci&oacute;n no es una disciplina de solo la ingenier&iacute;a, tambi&eacute;n hace uso herramientas fundamentales de otras ramas de la ciencia,
+concluyendo que el uso de varios conceptos que hacen parte de la f&iacute;sica cu&aacute;ntica como lo son el qubit, bit y una nueva magnitud; nos conduce a el desarrollo
+de proyectos de computaci&oacute;n cu&aacute;ntica y sistemas de criptograf&iacute;a cu&aacute;ntica.</p>
+<p>Realizamos una inmersi&oacute;n a la historia del qubit y los l&iacute;mites que impon&iacute;an las leyes de f&iacute;sica a la computaci&oacute;n, nombrando las primeras m&aacute;quinas cu&aacute;nticas
+que han sido desarrolladas con el pasar de los a&ntilde;os, tambi&eacute;n haciendo referencia a algunos personajes como lo son:
+Rolf Landdaver, quien cuestion&oacute; el calor pregunt&aacute;ndose si este era inherente a las leyes de la f&iacute;sica.
+Richard Feynman quien fue un f&iacute;sico muy influyente a partir de sus libros y conferencias
+Peter Williston, un famoso matem&aacute;tico estadounidense que aplica la computaci&oacute;n c&aacute;untica y quien desarrollo un algoritmo de factorizaci&oacute;n, nombra las
+propiedades m&aacute;s relevantes acerca de la criptograf&iacute;a cu&aacute;ntica.</p>
+<center><img src='https://galaicotec.files.wordpress.com/2014/02/wifi.jpg?w=487&crop' width='600' height='400'></center>
+<center><h2>Qu&eacute; es una computadora cu&aacute;ntica</h2></center>
+<p>Es una m&aacute;quina capaz de solucionar problemas inform&aacute;ticos muy complejos a una velocidad incre&iacute;ble, muy por encima de las 
+computadoras cl&aacute;sicas actuales. En las computadoras convencionales, la unidad de informaci&oacute;n se llama 'bit' y puede tener un valor de 1 a 0. 
+Su equivalente en el sistema cu&aacute;ntico es el c&uacute;bit (bit cu&aacute;ntico), y puede ser 1 y 0 al mismo tiempo. Este fen&oacute;meno abre el camino
+a c&aacute;lculos que pueden realizarse de forma simult&aacute;nea. Sin embargo, los c&uacute;bits necesitan ser sincronizados usando un efecto conocido como 
+como entrelazamiento, que Albert Einstein defini&oacute; como una acci&oacute;n fantasmag&oacute;rica a distancia. Estas computadoras tendr&aacute;n muchas 
+aplicaciones &uacute;tiles, desde modificar reacciones qu&iacute;micas para nuevos medicamentos, hasta desarrollar tecnolog&iacute;as para el cuidado de 
+la salud o acelerar el dise&ntilde;o de bater&iacute;as con nuevos materiales.</p>
+<center><img src='http://static.bnr.bg/gallery/cr/medium/d2d81e5aaa83440dd617e021d4438d06.jpg' width='600' height='400'></center>
+<center><h2>Las bases de la criptograf&iacute;a </h2></center>
+<p>Consisten en cifrar o descifrar mensajes por medio de una llave secreta. Los criptosistemas en general, desarrollan su fuerza 
+alrededor de esta llave y normalmente, para tratar de descubrirla, deberemos factorizar dos n&uacute;meros primos enormes, o tambi&eacute;n pudiera ser resolviendo el problema 
+del logaritmo discreto, como es el caso del esquema ElGamal. Los n&uacute;meros se eligen para ser tan grandes que ni siquiera con la potencia de procesamiento de una 
+supercomputadora, se pueda descubrir la llave teniendo en cuenta un tiempo t intratable pensando en realizar cualquier ataque sobre dicha llave.
+Sin embargo, toda la resistencia de estos sistemas radica primordialmente en sus matem&aacute;ticas. Para la cuesti&oacute;n de la factorizaci&oacute;n de primos, si alg&uacute;n d&iacute;a los 
+matem&aacute;ticos lograran un algoritmo ultraeficiente de ejecuci&oacute;n, se pondr&iacute;a en riesgo cualquier criptosistema dependiente de este mecanismo.
+La criptograf&iacute;a cu&aacute;ntica es un paradigma que trata de abordar esta vulnerabilidad aprovechando entre otras cuestiones, el principio de incertidumbre de Heisenberg.</p>
+<center><img src='https://smart-lighting.es/wp-content/uploads/2017/06/blockchain-640x360.jpg' width='600' height='400'></center>
+<center><h2>M&eacute;todo</h2></center>
+<h3>Aparato</h3>
+<p>La criptograf&iacute;a cu&aacute;ntica funciona a la perfecci&oacute;n siempre y cuando la maquina empleada tenga muy buen espacio de almacenamiento y un buen procesador, 
+cabe aclarar que se debe hacer el correctu uso de ella para la proporcion de claves cu&aacute;nticas.</p>
+<p>Se hizo uso de la computaci&oacute;n cu&aacute;ntica y m&eacute;canica cu&aacute;ntica para desarrollar la critograf&iacute;a cu&aacute;ntica, logrando mejorar la seguridad informatica ya que hoy en d&iacute;a los datos personles y d&eacute;mas se
+encuentran muy expuestos.</p>
+<center><img src='https://res.cloudinary.com/vescudero/image/upload/s--7FL_DZPG--/c_scale,e_improve,f_auto,fl_force_strip.progressive,q_auto,w_400/v1505686186/Blog/Quantum_chip.jpg' width='600' height='400'></center>
+<center><h2>Conclusi&oacute;n</h2></center>
+<p>La Criptograf&iacute;a Cu&aacute;ntica es aquella rama de la criptolog&iacute;a que utiliza la f&iacute;sica para desarrollar un criptosistema completamente seguro manteniendo la secrec&iacute;a entre 
+distintas entidades independientes. Una de las acepciones de la palabra qubit hace referencia al comportamiento esencial de las part&iacute;culas m&aacute;s peque&ntilde;as de la materia y la energ&iacute;a. 
+Esto se traduce principalmente a que la seguridad de un sistema criptogr&aacute;fico cu&aacute;ntico, depende en mayor medida de sus propiedades f&iacute;sicas que de cualquier aspecto matem&aacute;tico.</p>
+<center><img src='https://diarioti.com/wp-content/uploads/2017/07/shutterstock_350389511-sakkmesterke-fotonica-cuantica.jpg' width='600' height='400'></center>
+<center><h2>Referencias</h2></center>
+<p>A continuaci&oacute;n podr&aacute; encontrar las fuentes de donde fue extraida la informaci&oacute;n para la creaci&oacute;n de esta p&aacute;gina web respetando los derechos de autor.<br></center>
+1. <A href='https://www.fi.muni.cz/usr/gruska/qbook1.pdf' class='e'>QUANTUM COMPUTING</A><br>
+2. <A href='http://oa.upm.es/1298/1/PFC_JESUS_MARTINEZ_MATEO.pdf' class='e'>Criptograf&iacute;a cu&aacute;ntica aplicada</A><br>
+3. <A href='https://arxiv.org/abs/1903.02964v1?fbclid=IwAR0tTjZPV30q47nxEBNssJE7CipWXhALUn72EAeKkD9F03L7RC0tEU7SY4' class='e'>Estimation and uncertainty quantification</A><br>
+4. <A href='http://www.criptored.upm.es/crypt4you/temas/cuantica/leccion1/leccion01.html' class='e'>Curso: Computaci&oacute;n y criptograf&iacute;a cu&aacute;ntica</A><br>
+5. <A href='http://www.lidiagroup.org/images/descargas/varios/011_ccuantica.pdf' class='e'>PRINCIPIOS FUNDAMENTALES DE LA COMPUTACI&Oacute;N CU&Aacute;NTICA</A></p>
+<center><img src='https://cdn.ttgtmedia.com/visuals/German/article/quantum-computing-1-adobe_searchsitetablet_520X173.jpg' width='600'></center>
+</main>
+
+<aside class='enlaces'>
+<center><h2>Noticias que te puedan interesar</h2>
+<table align='center'>
+<tr>
+    <td>
+        <center><img src='https://cdn.ttgtmedia.com/visuals/German/article/quantum-computing-1-adobe_searchsitetablet_520X173.jpg' width='270' height='200'></center>
+        <center><A href='https://es.cointelegraph.com/news/ibm-announced-services-that-include-quantum-cryptography' class='e'>IBM anunci&oacute; servicios que incluyen criptograf&iacute;a cu&aacute;ntica</A></center>
+        <br>
+    </td>
+</tr>
+<tr>
+    <td>
+        <center><img src='https://res.cloudinary.com/vescudero/image/upload/s--7FL_DZPG--/c_scale,e_improve,f_auto,fl_force_strip.progressive,q_auto,w_400/v1505686186/Blog/Quantum_chip.jpg' width='270' height='200'></center>
+        <center><A href='https://kippeo.com/el-futuro-y-presente-de-la-ciberseguridad-criptografia-cuantica/' class='e'>EL FUTURO (Y PRESENTE) DE LA CIBERSEGURIDAD: CRIPTOGRAF&Iacute;A CU&Aacute;NTICA</A></center>
+        <br>
+    </td>
+</tr>
+<tr>
+    <td>
+        <center><img src='http://static.bnr.bg/gallery/cr/medium/d2d81e5aaa83440dd617e021d4438d06.jpg' width='270' height='200'></center>
+        <center><A href='https://es.cointelegraph.com/news/what-are-the-challenges-and-opportunities-of-the-quantum-future-in-the-crypto-world' class='e'> ¿Cu&aacute;les son los desaf&iacute;os y oportunidades del futuro cu&aacute;ntico en el mundo crypto?</A></center>
+        <br>
+    </td>
+</tr>
+</table>
+</center></aside>
+
+<footer class='pie'>
+<h5>Universidad El Bosque</h5>
+<h5>Elaborado por Sergio Castro</h5>
+<h5>VIII Semestre, Ing. Sistemas</h5>
+</footer>
+
+</div>
+</body>
